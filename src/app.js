@@ -59,7 +59,7 @@ app.use(function errorHandler(error, req, res, next) {
        })
 
 
-app.get('/recipes', (req, res) => {
+app.get('/', (req, res) => {
       res.send(RECIPES)
       
        })
